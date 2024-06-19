@@ -17,12 +17,18 @@ import pandas as pd
 import numpy as np
 ```
 
-#### Lectura de Archivos .CSV
- `<data = pd.read_csv("data_latinoamerica.csv", sep=',')>`
+#### Lectura de Archivo .CSV
+ `data = pd.read_csv("data_latinoamerica.csv", sep=',')`
 
 
 #### Exploración de Datos
+Para tener informacion inicial de los datos:
+- `data.shape` Devuelve las dimensiones del DataFrame, (filas, columnas)
+- `data.head()` Muestra los datos de las primeras 5 filas
+- `print(data.dtypes)` Se observa que la columna date esta de tipo de dato object 
+- `print(data.isnull().sum())` Verificar la cantidad de valores nulos de cada columna
 
+#### Filtrado de Dataset y Nueva Exploración de Datos
 
 
 
