@@ -45,7 +45,7 @@ Guardado del nuevo DataFrame `data_latinoamerica_clean.to_csv("DatosFinalesFiltr
 
 ### **Avance 2**: Análisis Exploratorio – Visualización
 ### **Avance 3**: EDA con Numpy y Pandas
-#### Importación de Librerias
+ Importación de Librerias
 ```javascript
 import pandas as pd
 import numpy as np
@@ -53,12 +53,12 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 ```
 
-#### Seleccion del estilo de graficos a utilizar
+ Seleccion del estilo de graficos a utilizar
 ```javascript
 plt.style.use('ggplot')
 ```
 
-#### Visualización de datos con Matplotlib y Seaborn
+ Visualización de datos con Matplotlib y Seaborn
 
 
 
