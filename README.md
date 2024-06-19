@@ -14,7 +14,7 @@ Se recopilaron datos sobre incidencia de COVID-19, tasas de vacunación, infraes
 ```javascript
 import pandas as pd
 import numpy as np
-
+```
 
 
 
