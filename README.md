@@ -43,8 +43,8 @@ Para tener informacion inicial de los datos:
 Guardado del nuevo DataFrame `data_latinoamerica_clean.to_csv("DatosFinalesFiltrado.csv",index=False)`
 
 
-### 📈**Avance 2**:  Análisis Exploratorio – Visualización
-### 📊**Avance 3**: EDA con Numpy y Pandas
+### **Avance 2**:  Análisis Exploratorio – Visualización
+### **Avance 3**: EDA con Numpy y Pandas
  Importación de Librerias
 ```javascript
 import pandas as pd
@@ -60,7 +60,7 @@ plt.style.use('ggplot')
 
  Visualización de datos con Matplotlib y Seaborn
 
-## Power BI
+## 📈📊 Power BI
 ### **Avance 4**: Aplicaciones Prácticas - Integración en Power BI
 Síntesis del análisis realizado en las fases anteriores en dashboards interactivos y reportes que facilita la toma de decisiones estratégicas para la expansión de laboratorios y centros de vacunación.
 
