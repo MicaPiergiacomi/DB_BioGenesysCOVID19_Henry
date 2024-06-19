@@ -9,7 +9,7 @@ Se recopilaron datos sobre incidencia de COVID-19, tasas de vacunación, infraes
 
 ## Python y Jupyter Notebook
 
-## **Avance 1**: Carga y Transformación de Datos
+### **Avance 1**: Carga y Transformación de Datos
 #### Importación de Librerias
 
 ```javascript
@@ -43,8 +43,8 @@ Para tener informacion inicial de los datos:
 Guardado del nuevo DataFrame `data_latinoamerica_clean.to_csv("DatosFinalesFiltrado.csv",index=False)`
 
 
-## **Avance 2**: Análisis Exploratorio – Visualización
-## **Avance 3**: EDA con Numpy y Pandas
+### **Avance 2**: Análisis Exploratorio – Visualización
+### **Avance 3**: EDA con Numpy y Pandas
 #### Importación de Librerias
 ```javascript
 import pandas as pd
