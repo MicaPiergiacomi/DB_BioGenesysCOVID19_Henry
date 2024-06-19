@@ -40,6 +40,28 @@ Para tener informacion inicial de los datos:
 - Borramos registros nulos de la columna 'new_deceased', y al aplicar la limpieza en esa columna, tambien se limpian los nulos de 'new_confirmed', 'cumulative_confirmed' y 'cumulative_deceased'
 - La columna *'new_recovered'* contiene valores menos a 0 (en negativo), por lo que se decide llevar esos valores a 0. Ademas los valores nulos tambien los completamos con 0
 
+Guardado del nuevo DataFrame `data_latinoamerica_clean.to_csv("DatosFinalesFiltrado.csv",index=False)`
+
+
+## **Avance 2**: Análisis Exploratorio – Visualización
+## **Avance 3**: EDA con Numpy y Pandas
+#### Importación de Librerias
+```javascript
+import pandas as pd
+import numpy as np
+import matplotlib.pyplot as plt 
+import seaborn as sns
+```
+
+#### Seleccion del estilo de graficos a utilizar
+```javascript
+plt.style.use('ggplot')
+```
+
+#### Visualización de datos con Matplotlib y Seaborn
+
+
+
 ## EDA e insights
 Se aplicó un análisis exploratorio de datos (EDA) para identificar patrones, tendencias y relaciones entre las variables. Se utilizaron técnicas estadísticas, mediciones y visualizaciones para obtener insights valiosos. Se observaron las siguientes tendencias:
 - Disparidad en la tasa de vacunación: Los países con mayor PIB per cápita (Chile, Argentina y Brasil) también presentan las tasas de vacunación más altas.
