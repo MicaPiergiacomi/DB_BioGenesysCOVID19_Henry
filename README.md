@@ -10,13 +10,19 @@ Se recopilaron datos sobre incidencia de COVID-19, tasas de vacunación, infraes
 ## Python y Jupyter Notebook
 
 ## **Avance 1**: Carga y Transformación de Datos
+### IMPORTACION DE LIBRERIAS
 
 ```javascript
 import pandas as pd
 import numpy as np
 ```
 
+### LECTURA DE ARCHIVOS .CSV
+```javascript
+data = pd.read_csv("data_latinoamerica.csv", sep=',')
+```
 
+### EXPLORACIÓN DE DATOS
 
 ## EDA e insights
 Se aplicó un análisis exploratorio de datos (EDA) para identificar patrones, tendencias y relaciones entre las variables. Se utilizaron técnicas estadísticas, mediciones y visualizaciones para obtener insights valiosos. Se observaron las siguientes tendencias:
