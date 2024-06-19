@@ -30,23 +30,15 @@ Para tener informacion inicial de los datos:
 
 #### Filtrado de Dataset y Nueva Exploración de Datos
 
-`paises_seleccionados=['Argentina','Chile','Colombia','Mexico','Peru','Brazil']`  Creación de lista con los paises a analizar
-
-`data_latinoamerica=data[data['country_name'].isin(paises_seleccionados)]` Aplicaremos un filtro a la base original con la lista previamente creada
-
-`data_latinoamerica['date'] = pd.to_datetime(data_latinoamerica['date'])` Convertimos la columna 'date' a tipo datetime
-
-`print(data_latinoamerica['date'].dtype)` Verificar el tipo de datos de la columna 'Date'
-
-`print(data_latinoamerica.isnull().sum())` Revision de registro de nulos a partir del filtrado
-
-`data_latinoamerica_paises = data_latinoamerica[data_latinoamerica['location_key'].isin(['AR','CL','CO','MX','PE','BR'])]` Al verificar los datos faltantes en las columna *'location_key'*, se extrae los datos de los paises seleccionados: 'AR','CL','CO','MX','PE','BR'
-
-`data_latinoamerica_paises_Fecha=data_latinoamerica_paises[data_latinoamerica_paises['date']>'2021-01-01']` Filtrado de datos por fecha mayor al 01/01/2021
-
-`valores_nulos_fecha=data_latinoamerica_paises_Fecha.isnull().sum()[data_latinoamerica_paises_Fecha.isnull().sum()>0]
-`print(valores_nulos_fecha)`
-`print(np.shape(data_latinoamerica_paises_Fecha))` Recuento de Valores Nulos a partir del último filtro aplicado`
+-  Creación de lista con los paises a analizar
+- Aplicaremos un filtro a la base original con la lista previamente creada
+- Convertimos la columna 'date' a tipo datetime
+- Verificar el tipo de datos de la columna 'Date'
+- Revision de registro de nulos a partir del filtrado
+- Filtrado de datos por fecha mayor al 01/01/2021
+- Recuento de Valores Nulos a partir del último filtro aplicado
+- Borramos registros nulos de la columna 'new_deceased', y al aplicar la limpieza en esa columna, tambien se limpian los nulos de 'new_confirmed', 'cumulative_confirmed' y 'cumulative_deceased'
+- La columna *'new_recovered'* contiene valores menos a 0 (en negativo), por lo que se decide llevar esos valores a 0. Ademas los valores nulos tambien los completamos con 0
 
 ## EDA e insights
 Se aplicó un análisis exploratorio de datos (EDA) para identificar patrones, tendencias y relaciones entre las variables. Se utilizaron técnicas estadísticas, mediciones y visualizaciones para obtener insights valiosos. Se observaron las siguientes tendencias:
