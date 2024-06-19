@@ -30,7 +30,16 @@ Para tener informacion inicial de los datos:
 
 #### Filtrado de Dataset y Nueva Exploración de Datos
 
-
+`paises_seleccionados=['Argentina','Chile','Colombia','Mexico','Peru','Brazil']`  Creación de lista con los paises a analizar
+`data_latinoamerica=data[data['country_name'].isin(paises_seleccionados)]` Aplicaremos un filtro a la base original con la lista previamente creada
+`data_latinoamerica['date'] = pd.to_datetime(data_latinoamerica['date'])` Convertimos la columna 'date' a tipo datetime
+`print(data_latinoamerica['date'].dtype)` Verificar el tipo de datos de la columna 'Date'
+`print(data_latinoamerica.isnull().sum())` Revision de registro de nulos a partir del filtrado
+`data_latinoamerica_paises = data_latinoamerica[data_latinoamerica['location_key'].isin(['AR','CL','CO','MX','PE','BR'])]` Al verificar los datos faltantes en las columna *'location_key'*, se extrae los datos de los paises seleccionados: 'AR','CL','CO','MX','PE','BR'
+`data_latinoamerica_paises_Fecha=data_latinoamerica_paises[data_latinoamerica_paises['date']>'2021-01-01']` Filtrado de datos por fecha mayor al 01/01/2021
+`valores_nulos_fecha=data_latinoamerica_paises_Fecha.isnull().sum()[data_latinoamerica_paises_Fecha.isnull().sum()>0]
+print(valores_nulos_fecha)
+print(np.shape(data_latinoamerica_paises_Fecha))` Recuento de Valores Nulos a partir del último filtro aplicado
 
 ## EDA e insights
 Se aplicó un análisis exploratorio de datos (EDA) para identificar patrones, tendencias y relaciones entre las variables. Se utilizaron técnicas estadísticas, mediciones y visualizaciones para obtener insights valiosos. Se observaron las siguientes tendencias:
