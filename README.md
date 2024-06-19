@@ -64,7 +64,7 @@ plt.style.use('ggplot')
 ### **Avance 4**: Aplicaciones Prácticas - Integración en Power BI
 Síntesis del análisis realizado en las fases anteriores en dashboards interactivos y reportes que facilita la toma de decisiones estratégicas para la expansión de laboratorios y centros de vacunación.
 
-### INCIDENCIAS COVID 19
+### INCIDENCIAS DEL COVID 19
 ![a](https://github.com/MicaPiergiacomi/DB_BioGenesysCOVID19_ProyectoHenry/assets/168442686/68832f2a-882f-498f-aee0-4eefcda3c68a)
 
 ### INFORME DESCRIPTIVO LATAM
