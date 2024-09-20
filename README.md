@@ -85,23 +85,25 @@ Se aplicó un análisis exploratorio de datos (EDA) para identificar patrones, t
 - PBI per cápita: Chile y Argentina tienen los más altos, indicando mayor capacidad económica.
 
 
+
+
 # ⚡ Conclusiónes
 
-Paises recomendados para la expansión da laboratorios y centros de vacunación
+## Paises recomendados para la expansión da laboratorios y centros de vacunación
 
-1° México
+### 1° México
 La tasa alta de mortalidad (3.22%) indica una alta demanda de productos farmacéuticos y servicios de salud. 
 Bajo Promedio de Dosis Administradas:  hay una clara oportunidad para aumentar la distribución de vacunas y otros productos médicos. 
 PBI per cápita: Con un PBI per cápita de $9,900, hay una capacidad económica moderadamente alta para invertir en salud privada.
 
 
-2° Brasil
+### 2° Brasil
 El mercado más grande de Latinoamérica con 183 millones de habitantes en zonas urbanas.
 Alta Demanda Sanitaria: Con una alta tasa de mortalidad por COVID-19 (1.82%) y una baja cobertura de vacunación, hay una gran necesidad de intervención sanitaria. 
 PBI per cápita: Moderado ($8,700), indicando un mercado con una capacidad económica considerable para servicios de salud privada.
 
 
-3° Perú
+### 3° Perú
 Alta Necesidad Sanitaria: Con la más alta tasa de mortalidad por COVID-19 (3.92%). Perú muestra una gran necesidad de intervención sanitaria.
 Oportunidad en Vacunación: Aunque hay una relativamente alta cobertura de vacunación (2.8 dosis por persona), aún hay espacio para mejorar.
 PBI per cápita: Bajo ($7,000), lo que puede indicar una alta demanda de opciones de salud asequibles y accesibles.
