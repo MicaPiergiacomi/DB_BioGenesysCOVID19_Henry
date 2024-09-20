@@ -87,9 +87,9 @@ Se aplicó un análisis exploratorio de datos (EDA) para identificar patrones, t
 
 
 
-# ⚡ Conclusiónes
+# 💡 Conclusiónes
 
-## Paises recomendados para la expansión da laboratorios y centros de vacunación
+### Paises recomendados para la expansión da laboratorios y centros de vacunación
 
 ### 1° México
 La tasa alta de mortalidad (3.22%) indica una alta demanda de productos farmacéuticos y servicios de salud. 
