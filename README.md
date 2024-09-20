@@ -2,10 +2,12 @@
 
 Biogenesys, una empresa farmacéutica líder, busca expandir su presencia en Latinoamérica mediante la apertura de nuevos laboratorios farmacéuticos. Para identificar las ubicaciones óptimas, se realizó un estudio exhaustivo de datos de incidencia de COVID-19, tasas de vacunación, infraestructura sanitaria, distribución de la población y factores socioeconómicos. Este informe detalla la metodología empleada, los hallazgos obtenidos y las recomendaciones para la toma de decisiones estratégicas.
 
+Dashboard Actualizado: https://app.powerbi.com/view?r=eyJrIjoiNzIzMTJlYzAtNTQ3ZC00YTNhLTg5N2MtZjUwYzhlYjFkZGE2IiwidCI6IjVlYzNkNjBkLTA3NDEtNGNkZC1iMjYwLWM2MjE3OGVjMzJiYSIsImMiOjR9
 
 ## Desarrollo del proyecto
 ### Metodología de recopilación y selección de datos:
 Se recopilaron datos sobre incidencia de COVID-19, tasas de vacunación, infraestructura sanitaria, distribución de la población, prevalencia de enfermedades crónicas, PIB per cápita, entre otros indicadores relevantes.
+
 
 ## 🐍📒 Python y Jupyter Notebook
 
